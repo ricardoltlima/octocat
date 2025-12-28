@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: githubService
+
+github:
+  base-url: https://api.github.com
+  user-path: /users/{username}
+  repos-path: /users/{username}/repos
+
+
